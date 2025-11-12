@@ -1,0 +1,34 @@
+{
+  "todos": {
+    "Coordinator": {
+      "1": {
+        "id": "1",
+        "content": "Set up Supabase backend infrastructure",
+        "details": "Create database tables for users, courses, enrollments, etc. Set up authentication, storage buckets for course materials, and edge functions if needed",
+        "status": "completed",
+        "priority": "high"
+      },
+      "2": {
+        "id": "2",
+        "content": "Integrate Supabase with React application",
+        "details": "Update the landing page to include authentication, course management features, user dashboard, and backend integration",
+        "status": "completed",
+        "priority": "high"
+      },
+      "3": {
+        "id": "3",
+        "content": "Prepare project structure for Netlify deployment",
+        "details": "Configure build settings, environment variables, routing for SPA, and Netlify-specific configuration files",
+        "status": "completed",
+        "priority": "high"
+      },
+      "4": {
+        "id": "4",
+        "content": "Create GitHub repository structure and deployment guide",
+        "details": "Set up repository structure, README with deployment instructions, environment variable setup, and Netlify integration guide",
+        "status": "completed",
+        "priority": "high"
+      }
+    }
+  }
+}

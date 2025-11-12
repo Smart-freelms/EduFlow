@@ -1,0 +1,186 @@
+{
+  "_source_id": 25,
+  "sources": {
+    "LMS Industry Trends 2025": {
+      "https://research.com/education/lms-trends": {
+        "id": 1,
+        "publisher": "Research.com",
+        "url": "https://research.com/education/lms-trends",
+        "title": "10 Top LMS Trends for 2025: Technologies Driving Learning",
+        "info": "Comprehensive analysis of LMS trends including advanced analytics, LXP emergence, semantic interoperability, xAPI developments, VR/AR integration, mobile-first design, IoT connectivity, eLearning ecosystems, social learning, and ethical considerations"
+      },
+      "https://elearningindustry.com/lms-top-trends-transforming-the-future-of-education": {
+        "id": 2,
+        "publisher": "eLearning Industry",
+        "url": "https://elearningindustry.com/lms-top-trends-transforming-the-future-of-education",
+        "title": "LMS In 2025: Top Trends Transforming The Future Of Education",
+        "info": "Top 7 LMS trends including AI-powered personalization, data analytics, mobile-first learning, gamification, collaborative/social learning, blockchain credentialing, and immersive AR/VR experiences"
+      },
+      "https://adamfard.com/blog/edtech-design-trends": {
+        "id": 3,
+        "publisher": "Adam Fard Studio",
+        "url": "https://adamfard.com/blog/edtech-design-trends",
+        "title": "EdTech Design Trends 2025",
+        "info": "Detailed analysis of EdTech design trends focusing on personalization, real-time collaboration/asynchronous learning, gamification, AI & insights, interactivity, rich media & AR, and digital tools ('pixels over ink')"
+      },
+      "https://www.teachfloor.com/blog/best-free-and-open-source-lms-platforms": {
+        "id": 4,
+        "publisher": "Teachfloor",
+        "url": "https://www.teachfloor.com/blog/best-free-and-open-source-lms-platforms",
+        "title": "9 Best Free and Open Source LMS Platforms for 2025",
+        "info": "Comprehensive comparison of open-source LMS platforms including Moodle, Open edX, ATutor, ILIAS, Canvas, Chamilo, Odoo, ELMSLN, and Masteriyo with features, pros, cons, and positioning analysis"
+      },
+      "https://www.continu.com/research/corporate-elearning-statistics": {
+        "id": 5,
+        "publisher": "Continu",
+        "url": "https://www.continu.com/research/corporate-elearning-statistics",
+        "title": "Corporate eLearning Statistics (2025): Key Trends & ROI Data",
+        "info": "Comprehensive corporate eLearning statistics including 83% LMS adoption, $28.1B global LMS market by 2025, ROI data, mobile learning trends, AI adoption in L&D, gamification effectiveness, and detailed market projections"
+      },
+      "https://research.com/software/guides/best-features-of-a-learning-management-system": {
+        "id": 6,
+        "publisher": "Research.com",
+        "url": "https://research.com/software/guides/best-features-of-a-learning-management-system",
+        "title": "Best Features of a Learning Management System (LMS): 2025 Guide",
+        "info": "Best LMS features guide covering security, content creation, SCORM/xAPI integration, multi-tenancy, white-labeling, software integration, learner experience, survey tools, webinar integration, and social learning capabilities"
+      },
+      "https://www.absorblms.com/white-papers/the-total-economic-impact-of-absorb-lms": {
+        "id": 7,
+        "publisher": "Absorb LMS",
+        "url": "https://www.absorblms.com/white-papers/the-total-economic-impact-of-absorb-lms",
+        "title": "The Total Economic Impact™ of Absorb LMS",
+        "info": "Forrester Total Economic Impact study showing 490% ROI, $11.8M net present value, and quantified benefits of LMS deployment over three-year period"
+      }
+    },
+    "LMS Landing Page Analysis": {
+      "https://www.coursera.org": {
+        "id": 8,
+        "publisher": "Coursera",
+        "url": "https://www.coursera.org",
+        "title": "Coursera Main Landing Page",
+        "info": "Landing page content including page structure, navigation, hero sections, value propositions, pricing strategy, and CTA placement. Key messaging focuses on career advancement with individual, business, university, and government segments."
+      },
+      "https://www.udemy.com": {
+        "id": 9,
+        "publisher": "Udemy",
+        "url": "https://www.udemy.com",
+        "title": "Udemy Main Landing Page",
+        "info": "Landing page structure with focus on individual courses vs subscription plans (Personal, Team, Enterprise), pricing strategies with discounts, and platform differentiation through partnerships and course variety."
+      },
+      "https://www.khanacademy.org": {
+        "id": 10,
+        "publisher": "Khan Academy",
+        "url": "https://www.khanacademy.org",
+        "title": "Khan Academy Main Landing Page",
+        "info": "Mission-driven non-profit positioning with free educational content, AI-powered Khanmigo tools, and donation-based funding model. Clear segmentation for learners, teachers, and districts."
+      },
+      "https://www.instructure.com/canvas": {
+        "id": 11,
+        "publisher": "Instructure",
+        "url": "https://www.instructure.com/canvas",
+        "title": "Canvas LMS Landing Page",
+        "info": "B2B-focused positioning as '#1 LMS in North America' with strong institutional messaging for K-12, higher education, and business/government sectors. Emphasis on scalability and integrations."
+      },
+      "https://moodle.com": {
+        "id": 12,
+        "publisher": "Moodle",
+        "url": "https://moodle.com",
+        "title": "Moodle Main Landing Page",
+        "info": "Open-source platform emphasizing data control, privacy, and customization as key differentiators from commercial competitors. Strong focus on global partner network and institutional adoption."
+      },
+      "https://www.masterclass.com": {
+        "id": 13,
+        "publisher": "MasterClass",
+        "url": "https://www.masterclass.com",
+        "title": "MasterClass Main Landing Page",
+        "info": "Premium positioning with celebrity instructors and subscription model. Content focused on creative and professional skills with emphasis on entertainment value and brand appeal."
+      },
+      "https://www.linkedin.com/learning/": {
+        "id": 14,
+        "publisher": "LinkedIn",
+        "url": "https://www.linkedin.com/learning/",
+        "title": "LinkedIn Learning Landing Page",
+        "info": "Professional development platform integrated with LinkedIn ecosystem, targeting working professionals. Emphasis on career advancement, role-based learning paths, and enterprise adoption."
+      },
+      "https://www.edx.org": {
+        "id": 15,
+        "publisher": "edX",
+        "url": "https://www.edx.org",
+        "title": "edX Main Landing Page",
+        "info": "Partnership-driven model with prestigious universities (Harvard, MIT, etc.) offering academic credentials from courses to full degrees. Strong emphasis on institutional credibility."
+      },
+      "https://teachable.com": {
+        "id": 16,
+        "publisher": "Teachable",
+        "url": "https://teachable.com",
+        "title": "Teachable Main Landing Page",
+        "info": "Creator-focused platform for building educational businesses, not just consuming content. Strong emphasis on monetization tools, course creation capabilities, and global tax handling."
+      }
+    },
+    "LMS Key Features Research": {
+      "https://www.instructure.com/resources/blog/13-lms-features-benefit-student-learning": {
+        "id": 17,
+        "publisher": "Instructure",
+        "url": "https://www.instructure.com/resources/blog/13-lms-features-benefit-student-learning",
+        "title": "13 LMS Features That Benefit Student Learning",
+        "info": "Comprehensive analysis of 13 key LMS features focusing on course creation, student engagement, assessment, analytics, mobile features, and accessibility with specific examples from Canvas LMS"
+      },
+      "https://www.learnupon.com/blog/lms-features-overview/": {
+        "id": 18,
+        "publisher": "LearnUpon",
+        "url": "https://www.learnupon.com/blog/lms-features-overview/",
+        "title": "Top 29 Learning Management System Features",
+        "info": "Detailed breakdown of 29 LMS features across 7 categories: course creation tools, student engagement, assessment systems, analytics, integrations, mobile responsiveness, and accessibility features"
+      },
+      "https://trainingindustry.com/top-training-companies/learning-technologies/top-learning-management-system-lms-companies/": {
+        "id": 19,
+        "publisher": "Training Industry",
+        "url": "https://trainingindustry.com/top-training-companies/learning-technologies/top-learning-management-system-lms-companies/",
+        "title": "2025 Top Learning Management System (LMS) Companies",
+        "info": "Official list of top 20 LMS platforms for 2025 and analysis of general LMS capabilities including training management, learning experience enhancement, registration, tracking, and monitoring features"
+      },
+      "https://www.docebo.com/learning-network/blog/mobile-lms/": {
+        "id": 20,
+        "publisher": "Docebo",
+        "url": "https://www.docebo.com/learning-network/blog/mobile-lms/",
+        "title": "Compare the 10 Best Mobile LMS Platforms for Your Needs",
+        "info": "Comprehensive review of mobile LMS features including native apps, responsive design, cross-platform compatibility, offline learning, and detailed comparison of 10 mobile LMS platforms"
+      },
+      "https://elearningindustry.com/top-lms-training-software-with-learning-analytics-tools": {
+        "id": 21,
+        "publisher": "eLearning Industry",
+        "url": "https://elearningindustry.com/top-lms-training-software-with-learning-analytics-tools",
+        "title": "Learning Analytics Tools: Top LMS Software For Reporting In 2025",
+        "info": "In-depth analysis of LMS analytics and reporting features across 10 platforms including dashboards, data tracking, learning analytics, and specific capabilities for measuring training effectiveness and ROI"
+      },
+      "https://www.maplelms.com/learning-products/online-ai-proctoring/": {
+        "id": 22,
+        "publisher": "MapleLMS",
+        "url": "https://www.maplelms.com/learning-products/online-ai-proctoring/",
+        "title": "Online Exam Proctoring Software",
+        "info": "Detailed information about advanced LMS assessment and proctoring capabilities including AI-powered remote proctoring, biometric verification, browser security, and scalable exam delivery systems"
+      },
+      "https://www.cypherlearning.com/blog/business/lms-features-for-accessible-e-learning-courses": {
+        "id": 23,
+        "publisher": "CYPHER Learning",
+        "url": "https://www.cypherlearning.com/blog/business/lms-features-for-accessible-e-learning-courses",
+        "title": "Top 6 LMS compliance features for building accessible elearning courses",
+        "info": "Comprehensive guide to LMS accessibility features including WCAG compliance, screen reader support, assistive technology compatibility, keyboard accessibility, and inclusive design elements"
+      },
+      "https://www.educate-me.co/blog/lms-reporting": {
+        "id": 24,
+        "publisher": "EducateMe",
+        "url": "https://www.educate-me.co/blog/lms-reporting",
+        "title": "11 LMS Reports You Need to Track and Optimize in 2025",
+        "info": "Detailed analysis of essential LMS reporting features including course performance, learner engagement, progress tracking, assessment results, certification tracking, and skill development metrics"
+      },
+      "https://disprz.ai/blog/lms-integration-benefits-best-practices": {
+        "id": 25,
+        "publisher": "Disprz",
+        "url": "https://disprz.ai/blog/lms-integration-benefits-best-practices",
+        "title": "LMS Integration - Types, Benefits, Challenges & Best Practices 2025",
+        "info": "Complete guide to LMS integration capabilities including API, SSO, third-party integrations, technical workings, examples of video conferencing and workflow tool integrations, and enterprise integration best practices"
+      }
+    }
+  }
+}

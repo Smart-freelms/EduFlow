@@ -1,6 +1,6 @@
 [build]
-  command = "npm run build"
-  publish = "dist"
+  command = "cd lms-landing && npm run build"
+  publish = "lms-landing/dist"
 
 [build.environment]
   NODE_VERSION = "18"

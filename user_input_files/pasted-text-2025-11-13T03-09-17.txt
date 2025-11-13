@@ -1,0 +1,185 @@
+Failed during stage 'building site': Build script returned non-zero exit code: 2
+8:37:08 PM: Netlify Build                                                 
+8:37:08 PM: ────────────────────────────────────────────────────────────────
+8:37:08 PM: ​
+8:37:08 PM: ❯ Version
+8:37:08 PM:   @netlify/build 35.3.4
+8:37:08 PM: ​
+8:37:08 PM: ❯ Flags
+8:37:08 PM:   accountId: 6914e9c89c728c0eff4d5896
+8:37:08 PM:   baseRelDir: true
+8:37:08 PM:   buildId: 6914efbe1e4b0c1cc2797514
+8:37:08 PM:   deployId: 6914efbe1e4b0c1cc2797516
+8:37:08 PM: ​
+8:37:08 PM: ❯ Current directory
+8:37:08 PM:   /opt/build/repo
+8:37:08 PM: ​
+8:37:08 PM: ❯ Config file
+8:37:08 PM:   /opt/build/repo/netlify.toml
+8:37:08 PM: ​
+8:37:08 PM: ❯ Context
+8:37:08 PM:   production
+8:37:08 PM: ​
+8:37:08 PM: build.command from netlify.toml                               
+8:37:08 PM: ────────────────────────────────────────────────────────────────
+8:37:08 PM: ​
+8:37:08 PM: $ npm run build
+8:37:08 PM: > lms-platform@1.0.0 build
+8:37:08 PM: > tsc && vite build
+8:37:08 PM: Version 5.9.3
+8:37:08 PM: tsc: The TypeScript Compiler - Version 5.9.3
+8:37:08 PM: COMMON COMMANDS
+8:37:08 PM:   tsc
+8:37:08 PM:   Compiles the current project (tsconfig.json in the working directory.)
+8:37:08 PM:   tsc app.ts util.ts
+8:37:08 PM:   Ignoring tsconfig.json, compiles the specified files with default compiler options.
+8:37:08 PM:   tsc -b
+8:37:08 PM:   Build a composite project in the working directory.
+8:37:08 PM:   tsc --init
+8:37:08 PM:   Creates a tsconfig.json with the recommended settings in the working directory.
+8:37:08 PM:   tsc -p ./path/to/tsconfig.json
+8:37:08 PM:   Compiles the TypeScript project located at the specified path.
+8:37:08 PM:   tsc --help --all
+8:37:08 PM:   An expanded version of this information, showing all possible compiler options
+8:37:08 PM:   tsc --noEmit
+8:37:08 PM:   tsc --target esnext
+8:37:08 PM:   Compiles the current project, with additional settings.
+8:37:08 PM: COMMAND LINE FLAGS
+8:37:08 PM: --help, -h
+8:37:08 PM: Print this message.
+8:37:08 PM: --watch, -w
+8:37:08 PM: Watch input files.
+8:37:08 PM: --all
+8:37:08 PM: Show all compiler options.
+8:37:08 PM: --version, -v
+8:37:08 PM: Print the compiler's version.
+8:37:08 PM: --init
+8:37:08 PM: Initializes a TypeScript project and creates a tsconfig.json file.
+8:37:08 PM: --project, -p
+8:37:08 PM: Compile the project given the path to its configuration file, or to a folder with a 'tsconfig.json'.
+8:37:08 PM: --showConfig
+8:37:08 PM: Print the final configuration instead of building.
+8:37:08 PM: --build, -b
+8:37:08 PM: Build one or more projects and their dependencies, if out of date
+8:37:08 PM: COMMON COMPILER OPTIONS
+8:37:08 PM: --pretty
+8:37:08 PM: Enable color and formatting in TypeScript's output to make compiler errors easier to read.
+type: boolean
+8:37:08 PM: default: true
+8:37:08 PM: --declaration, -d
+8:37:08 PM: Generate .d.ts files from TypeScript and JavaScript files in your project.
+8:37:08 PM: type: boolean
+8:37:08 PM: default: `false`, unless `composite` is set
+8:37:08 PM: --declarationMap
+8:37:08 PM: Create sourcemaps for d.ts files.
+8:37:08 PM: type: boolean
+8:37:08 PM: default: false
+8:37:08 PM: --emitDeclarationOnly
+8:37:08 PM: Only output d.ts files and not JavaScript files.
+8:37:08 PM: type: boolean
+8:37:08 PM: default: false
+8:37:08 PM: --sourceMap
+8:37:08 PM: Create source map files for emitted JavaScript files.
+8:37:08 PM: type: boolean
+8:37:08 PM: default: false
+8:37:08 PM: --noEmit
+8:37:08 PM: Disable emitting files from a compilation.
+8:37:08 PM: type: boolean
+8:37:08 PM: default: false
+8:37:08 PM: --target, -t
+8:37:08 PM: Set the JavaScript language version for emitted JavaScript and include compatible library declarations.
+8:37:08 PM: one of: es5, es6/es2015, es2016, es2017, es2018, es2019, es2020, es2021, es2022, es2023, es2024, esnext
+8:37:08 PM: default: es5
+8:37:08 PM: --module, -m
+8:37:08 PM: Specify what module code is generated.
+8:37:08 PM: one of: none, commonjs, amd, umd, system, es6/es2015, es2020, es2022, esnext, node16, node18, node20, nodenext, preserve
+8:37:08 PM: default: undefined
+8:37:08 PM: --lib
+8:37:08 PM: Specify a set of bundled library declaration files that describe the target runtime environment.
+8:37:08 PM: one or more: es5, es6/es2015, es7/es2016, es2017, es2018, es2019, es2020, es2021, es2022, es2023, es2024, esnext, dom, dom.iterable, dom.asynciterable, webworker, webworker.importscripts, webworker.iterable, webworker.asynciterable, scripthost, es2015.core, es2015.collection, es2015.generator, es2015.iterable, es2015.promise, es2015.proxy, es2015.reflect, es2015.symbol, es2015.symbol.wellknown, es2016.array.include, es2016.intl, es2017.arraybuffer, es2017.date, es2017.object, es2017.sharedmemory, es2017.string, es2017.intl, es2017.typedarrays, es2018.asyncgenerator, es2018.asynciterable/esnext.asynciterable, es2018.intl, es2018.promise, es2018.regexp, es2019.array, es2019.object, es2019.string, es2019.symbol/esnext.symbol, es2019.intl, es2020.bigint/esnext.bigint, es2020.date, es2020.promise, es2020.sharedmemory, es2020.string, es2020.symbol.wellknown, es2020.intl, es2020.number, es2021.promise, es2021.string, es2021.weakref/esnext.weakref, es2021.intl, es2022.array, es2022.error, es2022.intl, es2022.object, es2022.string, es2022.regexp, es2023.array, es2023.collection, es2023.intl, es2024.arraybuffer, es2024.collection, es2024.object/esnext.object, es2024.promise, es2024.regexp/esnext.regexp, es2024.sharedmemory, es2024.string/esnext.string, esnext.array, esnext.collection, esnext.intl, esnext.disposable, esnext.promise, esnext.decorators, esnext.iterator, esnext.float16, esnext.error, esnext.sharedmemory, decorators, decorators.legacy
+8:37:08 PM: default: undefined
+8:37:08 PM: --allowJs
+8:37:08 PM: Allow JavaScript files to be a part of your program. Use the 'checkJs' option to get errors from these files.
+8:37:08 PM: type: boolean
+8:37:08 PM: default: false
+8:37:08 PM: --checkJs
+8:37:08 PM: Enable error reporting in type-checked JavaScript files.
+8:37:08 PM: type: boolean
+8:37:08 PM: default: false
+8:37:08 PM: --jsx
+8:37:08 PM: Specify what JSX code is generated.
+8:37:08 PM: one of: preserve, react, react-native, react-jsx, react-jsxdev
+8:37:08 PM: default: undefined
+8:37:08 PM: --outFile
+8:37:08 PM: Specify a file that bundles all outputs into one JavaScript file. If 'declaration' is true, also designates a file that bundles all .d.ts output.
+8:37:08 PM: --outDir
+8:37:08 PM: Specify an output folder for all emitted files.
+8:37:08 PM: --removeComments
+8:37:08 PM: Disable emitting comments.
+8:37:08 PM: type: boolean
+8:37:08 PM: default: false
+8:37:08 PM: --strict
+8:37:08 PM: Enable all strict type-checking options.
+8:37:08 PM: type: boolean
+8:37:08 PM: default: false
+8:37:08 PM: --types
+8:37:08 PM: Specify type package names to be included without being referenced in a source file.
+8:37:08 PM: --esModuleInterop
+8:37:08 PM: Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility.
+8:37:08 PM: type: boolean
+8:37:08 PM: default: false
+8:37:08 PM: You can learn about all of the compiler options at https://aka.ms/tsc
+8:37:08 PM: ​
+8:37:08 PM: "build.command" failed                                        
+8:37:08 PM: ────────────────────────────────────────────────────────────────
+8:37:08 PM: ​
+8:37:08 PM:   Error message
+8:37:08 PM:   Command failed with exit code 1: npm run build
+8:37:08 PM: ​
+8:37:08 PM:   Error location
+8:37:08 PM:   In build.command from netlify.toml:
+8:37:08 PM:   npm run build
+8:37:08 PM: ​
+8:37:08 PM:   Resolved config
+8:37:08 PM:   build:
+8:37:08 PM:     command: npm run build
+8:37:08 PM:     commandOrigin: config
+8:37:08 PM:     environment:
+8:37:08 PM:       - VITE_APP_NAME
+8:37:08 PM:       - VITE_CREATE_PROFILE_URL
+8:37:08 PM:       - VITE_ENROLL_COURSE_URL
+8:37:08 PM:       - VITE_SUPABASE_ANON_KEY
+8:37:08 PM:       - VITE_SUPABASE_URL
+8:37:08 PM:       - VITE_UPDATE_PROGRESS_URL
+8:37:08 PM:       - VITE_UPLOAD_FILE_URL
+8:37:08 PM:       - NODE_VERSION
+8:37:08 PM:     publish: /opt/build/repo/dist
+8:37:08 PM:     publishOrigin: config
+8:37:08 PM:   headers:
+8:37:08 PM:     - for: /*
+      values:
+        Referrer-Policy: strict-origin-when-cross-origin
+        X-Content-Type-Options: nosniff
+        X-Frame-Options: DENY
+        X-XSS-Protection: 1; mode=block
+    - for: /assets/*
+      values:
+        Cache-Control: public, max-age=31536000, immutable
+    - for: "*.jpg"
+      values:
+        Cache-Control: public, max-age=31536000
+    - for: "*.png"
+      values:
+        Cache-Control: public, max-age=31536000
+    - for: "*.webp"
+      values:
+        Cache-Control: public, max-age=31536000
+  headersOrigin: config
+  redirects:
+    - from: /*
+      status: 200
+      to: /index.html
+  redirectsOrigin: config
+8:37:08 PM: Build failed due to a user error: Build script returned non-zero exit code: 2
+8:37:08 PM: Failing build: Failed to build site
+8:37:09 PM: Finished processing build request in 53.435s
